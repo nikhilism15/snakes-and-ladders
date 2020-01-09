@@ -1,6 +1,6 @@
 ## Introduction
 
-After a sleepless night of poring through React Documentation, I was motivated to build this small Snakes and Ladders game by my good friend [Sai Kishore Komanduri](https://github.com/fatman-). Here's the first draft. 
+After a sleepless night of poring through React Documentation, I was motivated by my good friend [Sai Kishore Komanduri](https://github.com/fatman-) to build this small Snakes and Ladders game. Here's the first draft. 
 
 ## Game Rules
 
