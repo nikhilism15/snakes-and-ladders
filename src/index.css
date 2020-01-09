@@ -1,0 +1,88 @@
+.game {
+    height: 550px;
+    width: 550px;
+    margin-left: 20%;
+    background-image: url('assets/LaddersSnakes.png');
+    float: left;
+}
+.console {
+    border: solid 1px black;
+    border-radius: 20px;
+    height: 500px;
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+    padding: 25px;
+}
+
+.dice-roll {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 25%;
+    cursor: pointer;
+}
+
+.history {
+    height: 60%;
+    max-height: 90%;
+    width: 90%;
+    overflow: auto;
+}
+/* .board {
+    height: 550px;
+    width: 550px;
+    margin-left: 20%;
+    background-image: url('assets/LaddersSnakes.png');    
+} */
+
+.status {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.grid-cell {
+    height: 53.5px;
+    width: 53.5px;
+    float: left;
+    border: solid 1px black;
+}
+
+.player1 {
+    margin: auto;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    background-image: url('assets/Chess_nld45.svg');
+}
+.player2 {
+    margin: auto;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    background-image: url('assets/Chess_ndd45.svg');
+}
+/* .row > div.grid-cell:nth-of-type(odd) {
+    background-color: black;
+    float: left;
+    color: white;
+} */
+
+.cell-number {
+    position: relative;
+    top:2%;
+    left: 2%;
+    height: 5px;
+    width: 5px;
+    font-size: small;
+}
+
+.row {
+    width: 600px;
+}
