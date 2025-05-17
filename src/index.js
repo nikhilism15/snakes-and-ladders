@@ -15,7 +15,7 @@ function Cell(props) {
 class Board extends Component {
   renderRow(row) {
     return (
-      <div className="row">
+      <div className="row-1">
         {" "}
         {row.map((elem, idx) => {
           if (elem === this.props.player1Position) {
